@@ -49,6 +49,27 @@ li{
     margin: 0 auto;
 }
 
+.debug main section .my-row .my-col-3-5{
+    background-color: aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .my-row .my-col-2-5{
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .big-green{
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 400px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
 /* my-row */
 .my-row .main-menu-container > *{
     padding: 10px;
@@ -72,6 +93,15 @@ li{
     width: calc((100% / 6) * 4);
 }
 
+.my-col-2-5{
+    width: calc((100% / 5) * 2);
+}
+
+.my-col-3-5{
+    width: calc((100% / 5) * 3);
+}
+
+
 /* header */
 .header-top .main-menu-container > .main-nav{
     text-align: center;
@@ -87,4 +117,20 @@ li{
 
 .header-bottom{
     padding: 50px 0;
+}
+
+
+/* main */
+.main-section-row{
+    padding: 40px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.lightgrey-background{
+    background-color: lightgray;
+}
+
+.white-background{
+    background-color: white;
 }
